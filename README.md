@@ -10,14 +10,14 @@ Repo này dùng để **phát hành bản cài đặt**. Mã nguồn không côn
 
 | | |
 |---|---|
-| Phiên bản | 1.0.0 |
+| Phiên bản | 1.0.1 |
 | Hệ điều hành | macOS 10.13 trở lên |
 | Chip | **Apple Silicon (M1/M2/M3/M4) — chưa hỗ trợ Mac chip Intel** |
 | Dung lượng | ~10 MB |
 
 ## Cài đặt
 
-1. Tải file `Anti4_1.0.0_aarch64.dmg`, mở ra và kéo **Anti4** vào thư mục **Applications**.
+1. Tải file `Anti4_1.0.1_aarch64.dmg`, mở ra và kéo **Anti4** vào thư mục **Applications**.
 
 2. Bản này **chưa ký Apple Developer ID**, nên macOS sẽ chặn ở lần mở đầu tiên (báo *"Anti4 is damaged and can't be opened"* hoặc *"unidentified developer"*). Đây là cơ chế Gatekeeper của Apple với mọi app chưa ký, **không phải app bị lỗi hay nhiễm mã độc**.
 
