@@ -33,13 +33,13 @@ Repo này dùng để **phát hành bản cài đặt**. Mã nguồn không côn
 
    > Lưu ý: từ macOS 15, Apple đã **bỏ** cách chuột phải → Open, nên nếu dùng Sequoia anh/chị hãy làm theo lệnh Terminal hoặc đường System Settings ở trên.
 
-## Cấu hình trình duyệt (bắt buộc)
+## Trình duyệt — tự động tải lần đầu
 
-Anti4 cần một bản **Chromium** để chạy hồ sơ. Bản cài này **không kèm sẵn** trình duyệt và tính năng tự động tải **chưa khả dụng** ở bản 1.0.0.
+Lần đầu mở app, Anti4 **tự tải trình duyệt stealth Chromium** (~145 MB) rồi cài vào thư mục dữ liệu của app. Quá trình này chỉ chạy **một lần**, có thanh tiến trình, và thường mất dưới một phút.
 
-Sau khi mở app, nếu hiện thông báo tải trình duyệt thất bại, bấm **Continue anyway**, rồi vào **Settings** trỏ tới đường dẫn Chromium có sẵn trên máy.
+Trình duyệt được tải **trực tiếp từ bản phát hành chính chủ của [CloakBrowser](https://github.com/CloakHQ/CloakBrowser)** và được **đối chiếu SHA-256** trước khi cài — Anti4 không phân phối lại, không chỉnh sửa gì.
 
-> Để chống nhận diện (anti-detect) hoạt động đúng, nên dùng bản Chromium đã được vá — Chromium/Chrome tiêu chuẩn vẫn chạy được nhưng các tuỳ chỉnh fingerprint sẽ không có tác dụng đầy đủ.
+Nếu máy không có mạng hoặc bị chặn tải, bấm **Continue anyway** rồi vào **Settings** trỏ tay tới một bản Chromium có sẵn. (Lưu ý: Chrome/Chromium tiêu chuẩn vẫn chạy được nhưng các tuỳ chỉnh fingerprint sẽ không có tác dụng đầy đủ — nên dùng bản đã vá.)
 
 ## Bản quyền sử dụng
 
